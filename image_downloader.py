@@ -2,6 +2,8 @@ import os
 import requests
 from bs4 import BeautifulSoup
 
+# This code will download the specified word related image with specific number 
+
 google_image = 'https://www.google.com/search?site=&tbm=isch&source=hp&biw=1873&bih=990&'
 
 usr_agent = {
@@ -13,6 +15,7 @@ usr_agent = {
     'Connection': 'keep-alive',
 }
 
+# Creates a folder named "images" in the current directory of this script
 SAVE_FOLDER = 'images'
 
 
